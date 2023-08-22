@@ -1,0 +1,33 @@
+/* header */
+header {background: rgb(255, 255, 255);
+width: calc(100% - 60px); margin: 0 auto;
+padding: 10px 0;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+position: fixed; left: 50%;
+transform: translateX(-50%);
+}
+header h1 {width: 160px; } 
+header h1 a {}
+header h1 a img {width: 100%;}
+header nav {
+    display: flex;
+}
+header nav h2:last-child {margin-right: 0;}
+header nav h2 {
+    margin-right: 40px;
+}
+header nav h2 a {font-size: 1.5rem;}
+header .lnb { 
+    display: flex;
+}
+header .lnb h2:first-child {padding-left: 0;}
+header .lnb h2 {
+    padding-left: 15px;
+}
+header .lnb h2 a {}
+header .lnb h2 a img {}
+/* footer */
