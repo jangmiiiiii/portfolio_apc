@@ -1,45 +1,82 @@
 /* main */
-main { background: lightgoldenrodyellow;
-    width:calc(100% - 60px); margin: 0 auto;
+main { 
+    width:100%; margin: 0 auto;
+    background-color: black;
 }
-main .bnr {height: 1020px; background: url(../images/main_bg.jpg) no-repeat;
+main .bnr1 {width: 100%; height: 900px; 
+    background: url(../images/apc_bg3.jpg) no-repeat;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+main .bnr1 h1 {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
     
 }
-main .bnr h1 {text-align: center;
+main .bnr1 h1 img {width: 100%; margin-bottom: 10px;
+padding-top: 30px;
 }
-main .bnr h1 img {width: 100%; margin-bottom: 10px;}
-main .bnr p {
+main .bnr1 p {
     color: #fff;
     font-size: 1.333rem;
 }
-main .bnr p em {
+main .bnr1 p em {
     font-size: 1.555rem;
     font-weight: 500;
 }
-main .bnr_btm {background: lightgreen;height: 253px;
+main .bnr2 {height: 253px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/denim.jpeg), no-repeat;
     background-position: 20% 80% ;
     position: relative;
+    margin-bottom: 7px;
 }
-main .bnr_btm .txt {
-    position: absolute; right: 5%; bottom: 50%;
+main .bnr2 .txt {
+    position: absolute; right: 5%; bottom: 30%;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.70);
 }
-main .bnr_btm .txt h2 {
-    font-size: 2.8rem;
+main .bnr2 .txt h2 {
+    font-size: 3.5rem;
     font-weight: 700;
     color: #FB5A00;
     padding-bottom: 10px;
 }
-main .bnr_btm .txt p {
-    font-size: 0.9rem;
+main .bnr2 .txt p:first-child{
+    padding-left: 10px;
+    color: #f87529f5;
+    font-weight: 600;
+    text-shadow: 2px 3px 5px rgb(0, 0, 0);
+}
+main .bnr2 .txt p {
+    font-size: 1.13rem;
+    color: #f87529f5;
+    letter-spacing: -0.02rem;
+}
+main .bnr3 {background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/store.jpg) no-repeat;
+    background-size: cover;
+    background-position:50% 40%;
+    width: 100%;
+    height: 253px;
+}
+main .bnr3 .surplus {
+    width: 100%; height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 101px;
+}
+main .bnr3 .surplus h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 60px;
+    text-shadow:0 2px 3px rgba(0, 0, 0, 0.486);
+    padding-bottom: 10px;
+}
+main .bnr3 .surplus p {
+    font-weight: 600;
     color: #fff;
 }
-
-main .bnr_btm .btn {} 
-main .bnr_btm .btn p {}
-main .bnr_btm .btn p a {}
