@@ -16,7 +16,14 @@
 <body>
     <!-- <?php include ("header php경로") ?> -->
     <header>
-        <h1 class="logo1"><a href="#"><img src="./images/apc_logo1.png" alt=""></a></h1>
+        <div class="logoNav">
+            <h1 class="logo1"><a href="#"><img src="./images/apc_logo1.png" alt=""></a></h1>
+            <!-- 햄버거메뉴 아이콘 -->
+            <a href="#" class="m_nav">
+                <span></span><span></span><span></span>
+            </a>
+        </div>
+        <!-- 데스크탑 nav  -->
         <nav>
             <ul>
                 <li>
@@ -41,10 +48,8 @@
                         <li><a href="#">아우터</a></li>
                         <li><a href="#">티셔츠</a></li>
                         <li><a href="#">재킷/베스트</a></li>
-                        <li><a href="#">셔츠/블라우스</a></li>
+                        <li><a href="#">셔츠</a></li>
                         <li><a href="#">팬츠</a></li>
-                        <li><a href="#">스커트</a></li>
-                        <li><a href="#">원피스</a></li>
                         <li><a href="#">패션잡화</a></li>
                     </ul>
                 </li>
@@ -70,8 +75,179 @@
                         <li><a href="#">CAFE A.P.C.</a></li>
                     </ul>
                 </li>
-                <li><a href="#">SALE</a></li>
+                <li><a href="#">SALE</a></li> 
             </ul>
+            <!-- 햄버거메뉴 시작-->
+            <div class="m_nav_open showHide">
+                <ul>
+                    <li> <!--1. women -->
+                        <a href="#" class="nav_menu">WOMEN</a>
+                        <ul class="m_sub">
+                            <li>
+                                <a href="#" class="sub_menu"><span>NEW Arrivals</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>OUTER</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">코트</a></li>
+                                        <li><a href="#">자켓</a></li>
+                                        <li><a href="#">가디건</a></li>
+                                        <li><a href="#">점퍼</a></li>
+                                        <li><a href="#">후드집업</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>TOP</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">맨투맨</a></li>
+                                        <li><a href="#">티셔츠</a></li>
+                                        <li><a href="#">블라우스/셔츠</a></li>
+                                        <li><a href="#">후드티</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>BOTTOM</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">청바지</a></li>
+                                        <li><a href="#">점프수트</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>OPS/SK</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">원피스</a></li>
+                                        <li><a href="#">미니스커트</a></li>
+                                        <li><a href="#">미디-롱스커트</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>KNIT</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">니트</a></li>
+                                        <li><a href="#">가디건</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>ACC</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">모자</a></li>
+                                        <li><a href="#">벨트</a></li>
+                                        <li><a href="#">스카프</a></li>
+                                        <li><a href="#">양말</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <!-- 2. men -->
+                        <a href="#" class="nav_menu">MEN</a>
+                        <ul class="m_sub">
+                            <li>
+                                <a href="#" class="sub_menu"><span>NEW Arrivals</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>OUTER</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">코트</a></li>
+                                        <li><a href="#">자켓</a></li>
+                                        <li><a href="#">가디건</a></li>
+                                        <li><a href="#">점퍼</a></li>
+                                        <li><a href="#">후드집업</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>TOP</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">맨투맨</a></li>
+                                        <li><a href="#">티셔츠</a></li>
+                                        <li><a href="#">셔츠</a></li>
+                                        <li><a href="#">후드티</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>BOTTOM</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">청바지</a></li>
+                                        <li><a href="#">점프수트</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>KNIT</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">니트</a></li>
+                                        <li><a href="#">가디건</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>ACC</span><img src="./images/m_down.png" alt=""></a>
+                                <div class="list">
+                                    <ul class="sub_list">
+                                        <li><a href="#">모자</a></li>
+                                        <li><a href="#">벨트</a></li>
+                                        <li><a href="#">스카프</a></li>
+                                        <li><a href="#">양말</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <!-- 3.DENIM -->
+                        <a href="#" class="nav_menu">DENIM</a>
+                        <ul class="m_sub">
+                            <li>
+                                <a href="#" class="sub_menu"><span>WOMEN</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>MEN</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <!-- 4.OBJECT -->
+                        <a href="#" class="nav_menu">OBJECT</a>
+                        <ul class="m_sub">
+                            <li>
+                                <a href="#" class="sub_menu"><span>WOMEN</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="sub_menu"><span>MEN</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <!-- 5. SALE -->
+                        <a href="#" class="nav_menu">SALE</a>
+                            <ul class="m_sub">
+                                <li>
+                                    <a href="#" class="sub_menu"><span>WOMEN</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub_menu"><span>MEN</span></a>
+                                </li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- 햄버거메뉴 끝 -->
         </nav>
         <div class="lnb">
             <h2><a href="#"><img src="./images/search.png" alt=""></a></h2>
@@ -86,14 +262,14 @@
             <h1><img src="./images/apc_white_logo.png" alt=""></h1>
         </section>
         <section class="bnr2">
-            <a class="txt">
+            <a href="#" class="txt">
                 <p>2023년 5월 31일 런칭 | 온라인 단독 한정수량 출시</p>
                 <h2>JEAN TOUITOU'S HAND PAINTING</h2>
                 <p>Jean Touitou(장 뚜이뚜)의 핸드페인팅 작업으로 탄생한 특별한 티셔츠와 스웻셔츠, 그리고 데님백을 선보입니다.</p>
             </a>
         </section> 
         <section class="bnr3">
-            <a class="surplus">
+            <a href="#" class="surplus">
                 <h2><!-- <img src="./images/apc_white_logo.png" alt=""> -->SURPLUS</h2> 
                 <p>오프라인 매장 둘러보기</p> 
             </a>
@@ -132,7 +308,7 @@
                 </div> 
                 <div class="sns">
                     <a href="#"><img src="./images/instagram.png" alt=""></a>
-                    <a href="#"><img src="./images/youtube.png" alt=""></a>
+                    <a href="#"><img src="./images/facebook.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -142,4 +318,5 @@
     <!-- 작성하는 js파일보다 먼저 선언되어 있어야 한다! -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="./script/script.js"></script>
+    <script src="./script/common.js"></script>
 </body>       

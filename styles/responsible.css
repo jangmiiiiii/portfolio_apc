@@ -1,0 +1,17 @@
+
+@media screen and (max-width:1330px) {
+    header nav > ul {display: none;}
+    header .logoNav .m_nav {display: block;
+    }
+    header .logoNav {flex-direction: row-reverse;}
+    header .logoNav .logo1{
+        position: absolute; left: 50%;
+    }
+    header .lnb h2:nth-child(3){display: none;}
+    header .lnb h2:last-child{display: none;}
+    header nav .m_nav_open{display: block;}
+    header .m_nav_open {
+    position: absolute; left: 50%;
+    transform: translateX(-50%);
+    }
+}
