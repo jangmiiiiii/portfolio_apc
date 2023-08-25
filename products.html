@@ -328,9 +328,9 @@
                         </a>
                     </div>
                 </div>
+                <div class="swiper-scrollbar"></div>
             </div>
         </div>
-        <div class="swiper-scrolbar"></div>
         <!-- 2. NEW Arrivals -->
         <div class="products">
             <h3>NEW Arrivals</h3>
@@ -622,9 +622,16 @@
 <script src="./script/common.js"></script>
 <script>
     const product_slide = new Swiper('#item_slide',{
-        slidesPerView:1, 
-        // loop:true,
-        // autoplay:{delay:2000},
-    });
+        slidesPerView:4, //한번에 보이는 슬라이드 개수
+        centeredSlides:true, //슬라이드 기준이 중심부터 시작 서정
+        loop:true, //무한반복 설정
+        autoplay:{delay:3000}, //자동재생
+        speed:800, //슬라이드 전환시 부드러운 전환
+        scrollbar:{el:'#item_slide .swiper-scrollbar'}, //스크롤바 표시
+        breakpoints:{
+            700:{slidesPerView:1, centeredSlides:false},
+            1000:{slidesPerView:3, centeredSlides:true},
+        }
+    }); 
 </script>
 </body>       

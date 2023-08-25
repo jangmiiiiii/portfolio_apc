@@ -62,48 +62,48 @@ main #item_slide {background: lightblue;
     border-bottom: 1px solid #d6d6d6;
     border-top: 1px solid #d6d6d6;
 }
-main #item_slide .swiper-wrapper {}
+main #item_slide .swiper-wrapper {
+}
 main #item_slide .swiper-wrapper .swiper-slide {
     /* 공통 슬라이드  */
-    width: 300px !important; height: 500px ;
+    width: 400px !important; height: 500px ;
     background-size: cover;
-    position: relative;
 } 
-main #item_slide .swiper-wrapper .swiper-slide:hover .txt {
+main #item_slide .swiper-wrapper .swiper-slide:hover a .txt {
     opacity: 100%;
     background-color: rgba(255, 255, 255, 0.493);
     width: 100%; height: 100%;
     transition: all 0.5s;
     text-align: center;
 }  
-main #item_slide .swiper-wrapper .swiper-slide .txt {
+main #item_slide .swiper-wrapper .swiper-slide a .txt {
     position: absolute; left: 50px;
     transform: translateX(-50px);
     padding-top: 50% ;
     /* 초기 숨기기 (이후 swiper 활용 마우스 터치시 기능추가 */
     opacity: 0;
 }
-main #item_slide .swiper-wrapper .swiper-slide .txt dt em {
+main #item_slide .swiper-wrapper .swiper-slide a .txt dt em {
     font-size: 1.2rem;
     font-weight: 600;
 }
-main #item_slide .swiper-wrapper .swiper-slide .txt dd {
+main #item_slide .swiper-wrapper .swiper-slide a .txt dd {
     font-weight: 600;
     padding-top: 8px;
 }
-main #item_slide .swiper-wrapper .slide1 {background:url(../images/clothes_img/best_item1.jpg) no-repeat;}
+main #item_slide .swiper-wrapper .slide1 {background-image:url(../images/clothes_img/best_item1.jpg);}
 main #item_slide .swiper-wrapper .slide2 {background-image:url(../images/clothes_img/best_item2.jpg);}
 main #item_slide .swiper-wrapper .slide3 {background-image:url(../images/clothes_img/best_item3.jpg);}
 main #item_slide .swiper-wrapper .slide4 {background-image:url(../images/clothes_img/best_item4.jpg);}
 main #item_slide .swiper-wrapper .slide5 {background-image:url(../images/clothes_img/best_item5.jpg);}
 main #item_slide .swiper-wrapper .slide6 {background-image:url(../images/clothes_img/best_item6.jpg);}
-/* swiper-ccrollbar design */
-main #product_slide .swiper-scrollar {
+/* swiper-scrollbar design */
+main #item_slide .swiper-scrollbar {
     /* position: absolute : 기본설정 */
-    left: 50%; bottom: 20px; transform: translateX(-50px);
-    background: lightgreen; width: 500px;
+    left: 30%; bottom: 20px; transform: translateX(-50px);
+    background: rgba(165, 165, 165, 0.342); width: 600px;
 }
-main #product_slide .swiper-scrollar-drag {background-color: lavender;}
+main #item_slide .swiper-scrollbar-drag {background-color: rgb(4, 4, 20);}
 /* swiper-slide 종료 */
 main .products {
     height:2274px ;
