@@ -5,7 +5,7 @@
     }
     header .logoNav {flex-direction: row-reverse;}
     header .logoNav .logo1{
-        position: absolute; left: 50%;
+        position: absolute; left: 40%; 
     }
     header .lnb h2:nth-child(3){display: none;}
     header .lnb h2:last-child{display: none;}

@@ -1,0 +1,181 @@
+header {
+    z-index: 999;
+    display: fixed;
+    border-bottom: 1px solid #9e9e9e;
+}
+main {
+    width:1440px; margin: 0 auto;
+    padding-top: 76PX;
+    padding:76px 50px 0;
+    position: relative; top: 60px;
+    z-index: 900; 
+    
+}
+main .nav_title {
+    display: flex;
+    flex-flow: column nowrap;
+}
+main .nav_title h2 {
+    width: 100%;
+    padding-bottom:10px ;
+    border-bottom: 3px solid #000;
+
+}
+main .nav_title h2 a {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.02rem;
+}
+main .nav_title .nav_list {
+    width: 1340px;
+    display:flex ;
+    flex-flow: row nowrap;
+    padding: 15px 0;
+    border-bottom: 1px solid #9e9e9e;
+}
+main .nav_title .nav_list p {
+}
+main .nav_title .nav_list p a {
+    margin-right: 40px;
+    font-size: 0.9rem;
+    color: #555555;
+    font-weight: 500;
+}
+main .nav_title .nav_list p a:hover {
+    color:rgb(226, 100, 26)
+}
+main .nav_title .nav_list p a em {
+    font-size: 0.9rem;
+}
+/* 1. best item */
+main .best_item {}
+main .best_item h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+    letter-spacing: 0.1rem;
+}
+/*  swiper slide */
+main #item_slide {background: lightblue;
+    height: 522px;
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+}
+main #item_slide .swiper-wrapper {}
+main #item_slide .swiper-wrapper .swiper-slide {
+    /* 공통 슬라이드  */
+    width: 300px !important; height: 500px ;
+    background-size: cover;
+    position: relative;
+} 
+main #item_slide .swiper-wrapper .swiper-slide:hover .txt {
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+    text-align: center;
+}  
+main #item_slide .swiper-wrapper .swiper-slide .txt {
+    position: absolute; left: 50px;
+    transform: translateX(-50px);
+    padding-top: 50% ;
+    /* 초기 숨기기 (이후 swiper 활용 마우스 터치시 기능추가 */
+    opacity: 0;
+}
+main #item_slide .swiper-wrapper .swiper-slide .txt dt em {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+main #item_slide .swiper-wrapper .swiper-slide .txt dd {
+    font-weight: 600;
+    padding-top: 8px;
+}
+main #item_slide .swiper-wrapper .slide1 {background:url(../images/clothes_img/best_item1.jpg) no-repeat;}
+main #item_slide .swiper-wrapper .slide2 {background-image:url(../images/clothes_img/best_item2.jpg);}
+main #item_slide .swiper-wrapper .slide3 {background-image:url(../images/clothes_img/best_item3.jpg);}
+main #item_slide .swiper-wrapper .slide4 {background-image:url(../images/clothes_img/best_item4.jpg);}
+main #item_slide .swiper-wrapper .slide5 {background-image:url(../images/clothes_img/best_item5.jpg);}
+main #item_slide .swiper-wrapper .slide6 {background-image:url(../images/clothes_img/best_item6.jpg);}
+/* swiper-ccrollbar design */
+main #product_slide .swiper-scrollar {
+    /* position: absolute : 기본설정 */
+    left: 50%; bottom: 20px; transform: translateX(-50px);
+    background: lightgreen; width: 500px;
+}
+main #product_slide .swiper-scrollar-drag {background-color: lavender;}
+/* swiper-slide 종료 */
+main .products {
+    height:2274px ;
+    margin-bottom: 100px;
+}
+main .products h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 100px 0;
+    letter-spacing: 0.02rem;
+}
+main .products .setting {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+main .products .setting li {
+    background: rgb(240, 240, 240);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    border:1px solid #ffffff;
+}
+main .products .setting li p {
+    font-size: 0.8rem;
+    padding: 12px 12px; 
+}
+main .products .setting li button {padding: 12px 12px;}
+main .products .setting li button img {width: 100%;}
+/* 상품리스트 */
+main .products .container {background: #f0f0f0;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 20px 15px;
+}
+main .products .container .item {}
+
+main .products .container .item .box {
+    position: relative;
+}
+main .products .container .item .box .item {
+    display: block;
+    width: 320px ; height:370px;
+    margin-bottom: 8px;
+}
+main .products .container .item .box .item img {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+main .products .container .item .box .like {
+    position: absolute; top: 10px; right: 15px;
+}
+main .products .container .item .box .like img {}
+main .products .container .item .txt {    
+    text-align: center;
+}
+main .products .container .item .txt .color {
+    position: relative;}
+main .products .container .item .txt .color span {
+    width: 30px; height: 12px;
+    margin-bottom: 10px;
+    background: lightblue;
+    display: inline-block;
+    text-indent: -9999px;
+}
+main .products .container .item .txt .name {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+main .products .container .item .txt .price {}
+
