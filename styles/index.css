@@ -2,6 +2,7 @@
 main {
     background-color: black;
 }
+<<<<<<< HEAD
 main .bnr1:hover {
     background-size:  110%;
     transition: all 1s ; 
@@ -9,6 +10,11 @@ main .bnr1:hover {
 main .bnr1 {width: 100%; height: 930px; 
     background: url(../images/apc_bg3.jpg) no-repeat;
     background-size: 100%;
+=======
+main .bnr1 {width: 100%; height: 900px; 
+    background: url(../images/apc_bg5.jpg) no-repeat;
+    background-size: cover;
+>>>>>>> 19094dd1eaec682e0ff8f17fba13f57aa1da305d
     background-position: center;
     display: flex;
     flex-flow: column nowrap;
