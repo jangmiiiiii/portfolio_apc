@@ -9,6 +9,9 @@ main {
     padding:76px 50px 0;
     position: relative; top: 60px;
     z-index: 900; 
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     
 }
 main .nav_title {
@@ -58,7 +61,7 @@ main .best_item h3 {
 }
 /*  swiper slide */
 main #item_slide {
-    height: 522px;
+    height: 540px;
     border-bottom: 1px solid #d6d6d6;
     border-top: 1px solid #d6d6d6;
 }
@@ -69,7 +72,7 @@ main #item_slide .swiper-wrapper .swiper-slide:hover {
 }
 main #item_slide .swiper-wrapper .swiper-slide {
     /* 공통 슬라이드  */
-    width: 400px !important; height: 500px ;
+    width: 430px !important; height: 500px ; margin: 0 auto;
     background-size: cover;
 } 
 main #item_slide .swiper-wrapper .swiper-slide:hover a .txt {
@@ -104,13 +107,15 @@ main #item_slide .swiper-wrapper .slide6 {background-image:url(../images/clothes
 main #item_slide .swiper-scrollbar {
     /* position: absolute : 기본설정 */
     left: 30%; bottom: 20px; transform: translateX(-50px);
-    background: rgba(165, 165, 165, 0.342); width: 600px;
+    background: rgba(165, 165, 165, 0.342); width: 700px;
 }
-main #item_slide .swiper-scrollbar-drag {background-color: rgb(4, 4, 20);}
+main #item_slide .swiper-scrollbar-drag { background-color: rgb(109, 109, 109);
+    
+}
 /* swiper-slide 종료 */
 main .products {
     height:2274px ;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 main .products h3 {
     font-size: 1.25rem;
@@ -181,4 +186,29 @@ main .products .container .item .txt .name {
     font-weight: 600;
 }
 main .products .container .item .txt .price {}
+main .page {
+    height: 50px;
+    position: absolute; bottom: 100px;
+    
+}
+main .page > a:hover {
+    color: #848484;
+}
+main .page > a {
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+/* 제품 상세 color*/
+/* container 1  */
+main .prodcuts .container1 .item1 .txt span{
+    color:white;
+    f
+}
+main .prodcuts .container1 .item1 span:last-child {}
+main .prodcuts .container1 .item2 span:first-child {}
+main .prodcuts .container1 .item2 span:last-child {}
+main .prodcuts .container1 .item3 span:first-child {}
+main .prodcuts .container1 .item3 span:last-child {}
+main .prodcuts .container1 .item4 span:first-child {}
+main .prodcuts .container1 .item4 span:last-child {}
 
