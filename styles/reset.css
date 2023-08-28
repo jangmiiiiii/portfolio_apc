@@ -9,7 +9,7 @@ div,header,nav,aside,main,footer,article,figure,figcaption,section,
 table,thead,tbody,tfoot,tr,th,td,ul,ol,li,dl,dt,dd, /*묶어주는 태그*/
 form,fieldset,legend,input,select,option,button,label,textarea {
     margin:0; padding:0; line-height:1.0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size:16px; font-style:normal; font-weight:normal;
     text-decoration:none;
 }

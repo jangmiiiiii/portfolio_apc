@@ -268,7 +268,7 @@
             <div class="p_right">
                 <div class="title">
                     <h3>A.P.C. Madame Sweatshirt</h3>
-                    <p>A.P.C. 로고가 엠보싱 된 오가닉 면 소재의 스웻셔츠</p>
+                    <p><span>A.P.C. 로고가 엠보싱 된 오가닉 면 소재의 스웻셔츠</span></p>
                     <p>349,000원</p>
                 </div>
                 <div class="info">
@@ -282,28 +282,29 @@
                 </div>
                 <div class="size">
                     <p>사이즈</p>
-                    <form action="#">
+                    <form action="post">
                         <fieldset>
+                            <legend class="skip">form</legend>
                             <ul>
                                 <li>
-                                    <label for="size">S</label>
-                                        <input type="radio" name="size">
+                                    <label for="s">S</label>
+                                    <input type="radio" name="option" value="s" id="s">
                                 </li>
                                 <li>
-                                    <label for="size">M</label>
-                                        <input type="radio" name="size">
+                                    <label for="m">M</label>
+                                        <input type="radio" name="option" value="m" id="m">
                                 </li>
                                 <li>
-                                    <label for="size">L</label>
-                                        <input type="radio" name="size">
+                                    <label for="l">L</label>
+                                        <input type="radio" name="option" value="l" id="l">
                                 </li>
                                 <li>
-                                    <label for="size">XL</label>
-                                        <input type="radio" name="size" >
+                                    <label for="xl">XL</label>
+                                        <input type="radio" name="option" value="xl" id="xl" >
                                 </li>
                                 <li>
-                                    <label for="size">XXL</label>
-                                        <input type="radio" name="size" >
+                                    <label for="xxl">XXL</label>
+                                        <input type="radio" name="option" value="xll" id="xll">
                                 </li>
                             </ul>
                         </fieldset>
@@ -327,38 +328,47 @@
                 </div>
             </div>
         </div>
-        <div class="tab_contents">
-            <div class="tab_c1">
-                <h3>상품설명</h3>
-                <div class="detail">
-                    <h4>디테일</h4>
-                    <p>스트레이트 컷</p>
-                    <p>크루넥라인</p>
-                    <p>A.P.C. 로고가 엠보싱</p>
-                    <p>'Rue Madame Paris' 실크스크린</p>
-                    <p>유기농 면 100%</p>
-                </div>
-                <div class="d_img">
-                    <p><img src="./images/product_detail_img/detail1-1.jpg" alt=""></p>
-                    <p><img src="./images/product_detail_img/detail_front.jpg" alt=""></p>
-                    <p><img src="./images/product_detail_img/detail_back.jpg" alt=""></p>
-                </div>
-                <div class="d_info">
-                    <h4>제품정보</h4>
-                    <p>면100%</p>
-                    <p>제조국 - 포르투갈</p>
-                    <p>드라이크리닝세탁 및 다림질로 인한 손상에 대해서는 <br>
-                        교환이나 환불이 불가합니다. (제품별 케어라벨 참조)</p>
-                </div>
-                <div class="size_guide">
-                    <h4>사이즈 가이드</h4>
-                    <p><img src="./images/product_detail_img/size_w.png" alt=""></p>
-                    <p><img src="./images/product_detail_img/size_m.png" alt=""></p>
+        <section id="product_info">
+            <div class="tab_title">
+                <a href="#" class="active"><h3>상품 설명</h3></a>
+                <a href="#"><h3>사이즈 안내</h3></a>
+                <a href="#"><h3>상품 리뷰</h3></a>
+            </div>
+            <div class="tab_contents">
+                <div class="tab_c1 active">
+                    <div class="list">
+                        <div class="detail">
+                            <h4>DETAIL</h4>
+                            <p>스트레이트 컷 | 크루넥라인</p>
+                            <p>A.P.C. 로고가 엠보싱</p>
+                            <p>'Rue Madame Paris' 실크스크린</p>
+                            <p>유기농 면 100%</p>
+                        </div>
+                        <div class="d_img">
+                            <p><img src="./images/product_detail_img/detail1-1.jpg" alt=""></p>
+                            <p><img src="./images/product_detail_img/detail_front.jpg" alt=""></p>
+                            <p><img src="./images/product_detail_img/detail_back.jpg" alt=""></p>
+                        </div>
+                        <div class="d_info">
+                            <h4>제품정보</h4>
+                            <p>- 면100%</p>
+                            <p>- 제조국 - 포르투갈</p>
+                            <p>- 드라이크리닝세탁 및 다림질로 인한 손상에 대해서는 교환이나 환불이 불가합니다. <br>  
+                                    (제품별 케어라벨 참조)</p>
+                        </div>
+                        <div class="size_guide">
+                            <h4>사이즈 가이드</h4>
+                            <p><img src="./images/product_detail_img/size_w.png" alt=""></p>
+                            <p><img src="./images/product_detail_img/size_m.png" alt=""></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="tab_c2">사이즈 안내</div>
-            <div class="tab_c3">상품 리뷰</div>
-        </div>
+            <div class="tab_c2">
+            </div>
+            <div class="tab_c3">
+            </div>
+        </section>
     </main>
     <footer>
         <div class="f_logo">
