@@ -45,7 +45,7 @@ main .nav_title .nav_list p a {
     font-weight: 600;
 }
 main .nav_title .nav_list p a:hover {
-    color:rgb(226, 100, 26)
+    color:rgb(226, 100, 26);
 }
 main .nav_title .nav_list p a em {
     font-size: 0.9rem;    
