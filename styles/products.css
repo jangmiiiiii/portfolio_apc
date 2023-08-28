@@ -54,11 +54,11 @@ main .nav_title .nav_list p a em {
 /* 1. best item */
 main .best_item {}
 main .best_item h3 {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     font-weight: 700;
     text-align: center;
-    padding: 50px 0;
-    letter-spacing: 0.1rem;
+    padding: 60px 0;
+    letter-spacing: 0.01rem;
 }
 /*  swiper slide */
 main #item_slide {
@@ -99,12 +99,18 @@ main #item_slide .swiper-wrapper .swiper-slide a .txt dd {
     font-weight: 600;
     padding-top: 8px;
 }
-main #item_slide .swiper-wrapper .slide1 {background-image:url(../images/clothes_img/best_item1.jpg);}
-main #item_slide .swiper-wrapper .slide2 {background-image:url(../images/clothes_img/best_item2.jpg);}
-main #item_slide .swiper-wrapper .slide3 {background-image:url(../images/clothes_img/best_item3.jpg);}
-main #item_slide .swiper-wrapper .slide4 {background-image:url(../images/clothes_img/best_item4.jpg);}
-main #item_slide .swiper-wrapper .slide5 {background-image:url(../images/clothes_img/best_item5.jpg);}
-main #item_slide .swiper-wrapper .slide6 {background-image:url(../images/clothes_img/best_item6.jpg);}
+main #item_slide .swiper-wrapper .slide1 {background-image:url(../images/clothes_img/best_item2.jpg);}
+main #item_slide .swiper-wrapper .slide2 {background-image:url(../images/clothes_img/best18.jpg);}
+main #item_slide .swiper-wrapper .slide3 {background-image:url(../images/clothes_img/best16.jpg);}
+main #item_slide .swiper-wrapper .slide4 {background-image:url(../images/clothes_img/best17.jpg);}
+main #item_slide .swiper-wrapper .slide5 {background-image:url(../images/clothes_img/best15.jpg);}
+main #item_slide .swiper-wrapper .slide6 {background-image:url(../images/clothes_img/best_item5.jpg);}
+main #item_slide .swiper-wrapper .slide7 {background-image:url(../images/clothes_img/best_item4.jpg);}
+main #item_slide .swiper-wrapper .slide8 {background-image:url(../images/clothes_img/best_item6.jpg);}
+main #item_slide .swiper-wrapper .slide9 {background-image:url(../images/clothes_img/ev28BwJKmT.jpg);}
+main #item_slide .swiper-wrapper .slide10 {background-image:url(../images/clothes_img/best_item3.jpg);}
+main #item_slide .swiper-wrapper .slide11 {background-image:url(../images/clothes_img/best11.jpg);}
+main #item_slide .swiper-wrapper .slide12 {background-image:url(../images/clothes_img/AdDjsdWAf0.jpg);}
 /* swiper-scrollbar design */
 main #item_slide .swiper-scrollbar {
     /* position: absolute : 기본설정 */
@@ -120,11 +126,11 @@ main .products {
     margin-bottom: 150px;
 }
 main .products h3 {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     font-weight: 700;
     text-align: center;
-    padding: 100px 0;
-    letter-spacing: 0.02rem;
+    padding: 60px 0;
+    letter-spacing: 0.01rem;
 }
 main .products .setting {
     display: flex;
