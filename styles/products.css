@@ -152,17 +152,18 @@ main .products .container {background: #f0f0f0;
     justify-content: space-around;
     padding: 20px 15px;
 }
-main .products .container .item {}
+main .products .container > .item {
+    width: 24%;
+}
 
 main .products .container .item .box {
     position: relative;
 }
-main .products .container .item .box .item {
+main .products .container .item .box .item_img {
     display: block;
-    width: 320px ; height:370px;
     margin-bottom: 8px;
 }
-main .products .container .item .box .item img {
+main .products .container .item .box .item_img img {
     width: 100%;
     border-radius: 20px;
     

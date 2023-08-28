@@ -177,10 +177,8 @@ main #product_info .tab_contents {
     text-align: center;
 }
 main #product_info .tab_contents .tab_c1 {
-    position: relative;
 }
 main #product_info .tab_contents .tab_c1 .list {
-    position: absolute; right: -350px; top:0;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

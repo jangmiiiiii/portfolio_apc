@@ -5,9 +5,10 @@ display: flex;
 flex-flow: row nowrap;
 justify-content: space-between;
 align-items: center;
-position: fixed; left: 50%;
-transform: translateX(-50%);
-padding: 0 120px;
+position: fixed; 
+/* left: 50%;
+transform: translateX(-50%); */
+padding: 0 30px;
 padding-top: 10px;
 }
 header .logo1 {
@@ -45,15 +46,17 @@ header nav {}
 header nav .m_nav_open {display: none;}
 header nav .showHide {display: none !important;}
 header nav .m_nav_open {
-    position: absolute; top: 60px;
+    display: block;
+    position: absolute;
+    top: 60px; left: 30px;
 }
 header nav .m_nav_open > ul {background: rgba(255, 255, 255, 0.925);
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: flex-start;
-    transform: translateX(-18%);
+    transform: translateX(-18%); */
     
 
 }
@@ -103,7 +106,7 @@ header nav .m_nav_open > ul > li > .m_sub > li > .list .sub_list {
     padding-left: 30px;
     white-space: nowrap;
 }
-header nav .m_nav_open > ul > li > .m_sub > li > .list .sub_list li {background: lightblue;
+header nav .m_nav_open > ul > li > .m_sub > li > .list .sub_list li {
     margin-right: 20px;
 }
 header nav .m_nav_open > ul > li > .m_sub > li > .list .sub_list li a:hover {border-bottom: 1px solid #222;}
@@ -157,7 +160,7 @@ footer {background: rgb(0, 0, 0);
     display: flex;
     flex-flow:  column nowrap;
     justify-content: space-between;
-    padding: 50px 40px;
+    padding: 30px;
     color: #fff;
 
 }
@@ -166,7 +169,6 @@ footer .f_logo h1 {}
 footer .f_logo h1 a {}
 footer .f_logo h1 a img {width: 160px;}
 footer .f_info .f_main {
-    padding: 0 50px;
 }
 footer .f_info .f_main .f_top {
     display: flex;
@@ -179,12 +181,11 @@ footer .f_info .f_main .f_top .left {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding-right: 460px;
+    white-space: nowrap;
 }
 footer .f_info .f_main .f_top .left li {
     padding: 0 10px;}
 footer .f_info .f_main .f_top .left li a {
-    padding-right: 30px;
     color: #fff;
 }
 footer .f_info .f_main .f_top .left li a em {
@@ -193,19 +194,20 @@ footer .f_info .f_main .f_top .left li a em {
 footer .f_info .f_main .f_top .right {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;}
+    align-items: center;
+    white-space: nowrap;
+}
 footer .f_info .f_main .f_top .right li {
     padding: 0 10px;
 }
 footer .f_info .f_main .f_top .right li a {
-    padding-left: 30px;
     color: #fff;
 }
 footer .f_info .f_btm {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 30px 60px ;
+    padding: 30px 30px ;
 }
 footer .f_info .f_btm .txt {}
 footer .f_info .f_btm .txt address {
