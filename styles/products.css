@@ -174,6 +174,9 @@ main .products .container .item .box .item_img img {
     border-radius: 20px;
     
 }
+main .products .container .item .box .like:hover {
+    background-image: url(../images/like_full.png);
+}
 main .products .container .item .box .like {
     position: absolute; top: 10px; right: 15px;
 }
@@ -184,9 +187,9 @@ main .products .container .item .txt {
 main .products .container .item .txt .color {
     position: relative;}
 main .products .container .item .txt .color span {
+    background: lightcoral;
     width: 30px; height: 12px;
     margin-bottom: 10px;
-    background: lightblue;
     display: inline-block;
     text-indent: -9999px;
 }
@@ -201,7 +204,10 @@ main .page {
     
 }
 main .page > a:hover {
-    color: #848484;
+    color: #848484; 
+}
+main .page > a:first-child{
+    font-weight: 700;
 }
 main .page > a {
     font-size: 1.2rem;
@@ -209,15 +215,34 @@ main .page > a {
 }
 /* 제품 상세 color*/
 /* container 1  */
-main .prodcuts .container1 .item1 .txt span{
-    color:white;
-    f
-}
-main .prodcuts .container1 .item1 span:last-child {}
-main .prodcuts .container1 .item2 span:first-child {}
-main .prodcuts .container1 .item2 span:last-child {}
-main .prodcuts .container1 .item3 span:first-child {}
-main .prodcuts .container1 .item3 span:last-child {}
-main .prodcuts .container1 .item4 span:first-child {}
-main .prodcuts .container1 .item4 span:last-child {}
+main .products .container1 .item1 .txt .color > span {background-color:white; border: 1px solid #d1d1d1;}
+main .products .container1 .item2 .txt .color > span {background-color:white; border: 1px solid #d1d1d1;}
+main .products .container1 .item3 .txt .color > span {background-color:white; border: 1px solid #d1d1d1;}
+main .products .container1 .item3 .txt .color > span:last-child {background-color:navy;}
+main .products .container1 .item4 .txt .color > span {background-color:rgb(247, 238, 218);border: 1px solid #d1d1d1;}
+/* container 2 */
+main .products .container2 .item1 .txt .color > span:first-child {background-color:rgb(253, 243, 208);border: 1px solid #d1d1d1;}
+main .products .container2 .item1 .txt .color > span:nth-child(2) {background-color:rgb(122, 65, 15);}
+main .products .container2 .item1 .txt .color > span:last-child {background-color:navy;}
+main .products .container2 .item2 .txt .color > span:first-child {background-color:rgb(245, 235, 148);border: 1px solid #d1d1d1;}
+main .products .container2 .item2 .txt .color > span:nth-child(2) {background-color:rgb(122, 65, 15);}
+main .products .container2 .item2 .txt .color > span:last-child {background-color:black;}
+main .products .container2 .item3 .txt .color > span {background-color:rgb(236, 217, 175); border: 1px solid #d1d1d1;}
+main .products .container2 .item4 .txt .color > span:first-child {background-color:rgb(236, 217, 175); border: 1px solid #d1d1d1;}
+main .products .container2 .item4 .txt .color > span {background-color:navy;}
+/* container 3 */
+main .products .container3 .item1 .txt .color > span {background-color:blue;}
+main .products .container3 .item1 .txt .color > span:last-child {background-color:rgb(235, 89, 4);}
+main .products .container3 .item2 .txt .color > span {background-color: rgb(122, 65, 15);}
+main .products .container3 .item3 .txt .color > span {background-color: pink;}
+main .products .container3 .item4 .txt .color > span {background-color: pink;}
+main .products .container3 .item4 .txt .color > span:last-child {background-color: rgb(100, 93, 29);}
+/* container 4 */
+main .products .container4 .item1 .txt .color > span {background-color: rgb(229, 172, 168);}
+main .products .container4 .item1 .txt .color > span:last-child {background-color:green;}
+main .products .container4 .item2 .txt .color > span {background-color: red;}
+main .products .container4 .item2 .txt .color > span:last-child {background-color: skyblue;}
+main .products .container4 .item3 .txt .color > span {background-color: red;}
+main .products .container4 .item4 .txt .color > span {background-color: red;}
+main .products .container4 .item4 .txt .color > span:last-child {background-color: black;}
 

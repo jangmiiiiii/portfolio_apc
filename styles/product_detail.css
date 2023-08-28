@@ -83,6 +83,9 @@ main .product .p_right .size form fieldset ul {
     display: flex;
     flex-flow:row nowrap ;
 }
+main .product .p_right .size form fieldset ul li button:hover {
+    color:rgb(255, 109, 24) ;
+}
 main .product .p_right .size form fieldset ul li {
     border: 1px solid #656565;
     margin-right: 15px;
@@ -95,13 +98,31 @@ main .product .p_right .size form fieldset ul li label input {
 /* 수량 및 최종가격 */
 main .product .p_right .total {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
     padding: 30px 0;
 }
-main .product .p_right .total .price {}
-main .product .p_right .total .count {}
-main .product .p_right .total .count #minus  {}
-main .product .p_right .total .count #countNum {}
+main .product .p_right .total .count {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+main .product .p_right .total .count > * {
+    width: 45px; height: 45px;
+    border: 1px solid #d6d2d2;
+    font-size: 1.25rem;
+}
+main .product .p_right .total .count #minus  {
+}
+main .product .p_right .total .count #countNum {
+    /* position: relative; top: 10px; */
+    text-align: center;
+    padding-top: 8%;
+}
 main .product .p_right .total .count #plus {}
 main .product .p_right .total p {
     font-weight: 600;
