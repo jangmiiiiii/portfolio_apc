@@ -1,0 +1,98 @@
+main {
+    width: 1130px; margin: 0 auto;
+    padding-top: 76PX;
+    padding:76px 50px 0;
+    position: relative; top: 60px;
+}
+main .p_title h3 {background: lightblue;
+    
+}
+main h3 em {}
+main .product { background: lightcoral;
+    width: 1130px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .product .p_left {}
+main .product .p_left .main_img {width: 600px; height: 700px;}
+main .product .p_left .main_img img {width: 100%;}
+main .product .p_right {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+main .product .p_right .title {
+    padding-bottom: 30px;
+}
+main .product .p_right .title h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+main .product .p_right .title p {
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+main .product .p_right .title p:last-child {
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+}
+main .product .p_right .info {
+    border-top:1px solid #656565 ;
+    border-bottom: 1px solid #656565;
+    padding: 30px 0;
+}
+main .product .p_right .info p:last-child {padding-bottom: 0;}
+main .product .p_right .info p {
+    padding-bottom: 15px;
+}
+main .product .p_right .info p a {}
+main .product .p_right .color_option {}
+main .product .p_right .color_option .tit {}
+main .product .p_right .color_option a {width: 107px; height: 125px; }
+main .product .p_right .color_option a img {width: 107px; height: 125px;}
+/* 사이즈 옵션 */
+main .product .p_right .size .tit {}
+main .product .p_right .size .tit ul {}
+main .product .p_right .size .tit ul li {}
+main .product .p_right .size .tit ul li label {}
+main .product .p_right .size .tit ul li label input {}
+/* 수량 및 최종가격 */
+main .product .p_right .total {}
+main .product .p_right .total .price {}
+main .product .p_right .total .count {}
+main .product .p_right .total .count #minus  {}
+main .product .p_right .total .count #countNum {}
+main .product .p_right .total .count #plus {}
+/* 장바구니/구매하기 */
+main .product .cart_buy {}
+main .product .cart_buy #cartBtn {}
+main .product .cart_buy #buyBtn {}
+/* tab contents*/
+main .tab_contents {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+/* 공통 속성 */
+main .tab_contents .tab_c1 > h4 {}
+/* tab1 */
+main .tab_contents .tab_c1 {}
+main .tab_contents .tab_c1 h3 {}
+main .tab_contents .tab_c1 .detail1 {}
+main .tab_contents .tab_c1 .detail1 h4 {}
+main .tab_contents .tab_c1 .detail1 p {}
+main .tab_contents .tab_c1 .d_img {}
+main .tab_contents .tab_c1 .d_img p {width: 680px; height: 775px;}
+main .tab_contents .tab_c1 .d_img p img {width: 680px; height: 775px;}
+main .tab_contents .tab_c1 .d_info {}
+main .tab_contents .tab_c1 .d_info h4 {}
+main .tab_contents .tab_c1 .d_info h4 p {}
+main .tab_contents .tab_c1 .size_guide {}
+main .tab_contents .tab_c1 .size_guide h4 {}
+main .tab_contents .tab_c1 .size_guide h4 p {}
+main .tab_contents .tab_c1 .size_guide h4 p img {}
+/* tab2 */
+/* tab3 */
