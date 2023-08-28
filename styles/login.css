@@ -1,0 +1,91 @@
+/* 로그인 유저타입 */
+main { background: lightcoral; 
+    width: 500px;
+    margin: 0 auto;
+    padding:50px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main h1 {
+    font-size: 3.15rem;
+    font-weight: 700;
+    padding: 100px 50%;
+}
+main .userType {
+    width: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+main .userType h2 {
+}
+main .userType h2 .active {    
+    border-bottom: 3px solid #000;
+}
+main .userType h2 a {
+    border-bottom: 3px solid #000;}
+main .content {}
+/* 회원로그인 */
+main .content .tab1 {background: lightblue;
+    padding: 70px 0 ;
+    
+}
+main .content .tab1 form {}
+main .content .tab1 form fieldset {}
+main .content .tab1 form fieldset .login {
+}
+
+main .content .tab1 form fieldset .login div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding-bottom:30px;
+}
+main .content .tab1 form fieldset .login .login_id span {
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+main .content .tab1 form fieldset .login .login_id #id {
+    border: 1px solid #929292;}
+main .content .tab1 form fieldset .login .login_pw span {
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+main .content .tab1 form fieldset .login .login_pw #pw {
+    border: 1px solid #929292;}
+main .content .tab1 form fieldset .login .login_pw #pw a {}
+main .content .tab1 form fieldset .login .login_pw #pw a img {}
+main .content .tab1 form fieldset .loginFrm {}
+main .content .tab1 form fieldset .loginFrm .loginAuto {}
+main .content .tab1 form fieldset .loginFrm .loginAuto label {}
+main .content .tab1 form fieldset .loginFrm .loginAuto label #auto {
+
+}
+main .content .tab1 form fieldset .loginFrm .loginAuto label span{
+    font-size: 0.9rem;
+} 
+main .content .tab1 form fieldset .loginFrm button {
+    width: 450px;
+}
+main .content .tab1 form fieldset .loginFrm .button .loginFind {}
+main .content .tab1 form fieldset .loginFrm .button .loginFind p {}
+main .content .tab1 form fieldset .loginFrm .button .loginFind p a {}
+main .content .tab1 .naver_login {}
+main .content .tab1 .naver_login #naver {background: indigo;
+    width: 20px; height: 20px;}
+main .content .tab1 .naver_login #naver img {width: 100%;}
+main .content .tab1 .naver_login #naver em {}
+/* 비회원 로그인 */
+main .content .tab2 {}
+main .content .tab2 form {}
+main .content .tab2 form fieldset {}
+main .content .tab2 form fieldset ul {}
+main .content .tab2 form fieldset ul li {}
+main .content .tab2 form fieldset ul li p {}
+main .content .tab2 form fieldset ul li #user_name {}
+main .content .tab2 form fieldset ul li #user_num {}
+main .content .tab2 form fieldset button {}
+main .content .tab2 p {}
+main .content .tab2 #join {}
