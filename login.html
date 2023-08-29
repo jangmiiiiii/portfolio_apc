@@ -93,7 +93,7 @@
     <script src="./script/script.js"></script>
     <script src="./script/common.js"></script>
     <script>
-        const userType = document.querySelectorAll('main .userType > h2')
+        const userType = document.querySelectorAll('main .userType > h2 > a')
         const tab = document.querySelectorAll('main .content > div')
         console.log(userType, tab)
 
@@ -109,7 +109,7 @@
             tab[0].style.display = 'block'
         })
         userType.forEach(function(t,i,a){
-            t.addEventListener('click',function(){
+            t.addEventListener('click',function(e){
                 e.preventDefault()
                 for(let i of tab){i.style.display='none'}
                 tab[i].style.display = 'block'
