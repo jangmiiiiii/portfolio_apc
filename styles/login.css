@@ -55,6 +55,9 @@ main .content .tab1 form fieldset .login .login_id span {
     padding-bottom: 5px;
     font-weight: 700;
 }
+main .content .tab1 form fieldset .login .login_id #id::placeholder {
+    padding: 10px;
+}
 main .content .tab1 form fieldset .login .login_id #id {
     border: 1px solid #929292;
     height: 45px;
@@ -62,6 +65,9 @@ main .content .tab1 form fieldset .login .login_id #id {
 main .content .tab1 form fieldset .login .login_pw span {
     padding-bottom: 5px;
     font-weight: 700;
+}
+main .content .tab1 form fieldset .login .login_pw #pw::placeholder {
+    padding: 10px;
 }
 main .content .tab1 form fieldset .login .login_pw #pw {
     border: 1px solid #929292;
@@ -100,28 +106,34 @@ main .content .tab1 form fieldset  .loginFind p {
     border-right: 1px solid #222;
     padding: 0 10px;
 }
-main .content .tab1 form fieldset  .loginFind p a {}
-main .content .tab1 .naver_login {
-display: flex;
-flex-flow: row nowrap;
-justify-content: center;
-align-items: center;
-margin-top: 50px;
+main .content .tab1 .naver_login  {
+    position: relative; left: 25%;
+    width: 230px;
+    background:rgb(3, 199, 90);
+    border-right: 1px solid #fff;
+    text-align: center;
+    
 }
-main .content .tab1 .naver_login > * {height: 40px;}
-main .content .tab1 .naver_login .naver_logo { background: #fff;
-    width: 40px;
-    border: 1px solid #929292;
+main .content .tab1 .naver_login .naver_form{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
-main .content .tab1 .naver_login .naver_logo img {width: 100%;}
-main .content .tab1 .naver_login .naver_txt {
-    background: #fff;
-    width: 400px; 
-    padding: 10px 10px;
-    border: 1px solid #929292;
-
+main .content .tab1 .naver_login .naver_form .naver_logo {
+    width:40px; height: 40px;
 }
-main .content .tab1 .naver_login .naver_txt em {
+main .content .tab1 .naver_login .naver_form .naver_logo img {width: 100%;}
+main .content .tab1 .naver_login .naver_form .naver_txt {
+    padding: 0 10px;
+    color: #fff;
+}
+main .content .tab1 .naver_login .naver_form:hover {
+    background-color:rgb(26, 134, 75);
+}
+main .content .tab1 .naver_login .naver_form .naver_txt em {
+    font-weight: 700;
 }
 /* 비회원 로그인 */
 main .content .tab2 {}
@@ -135,12 +147,18 @@ main .content .tab2 form fieldset ul li {
     padding-bottom: 30px;
 }
 main .content .tab2 form fieldset ul li p {    
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     font-weight: 700;
 }
 main .content .tab2 form fieldset ul li #user_name {
     border: 1px solid #929292;
     width: 450px; height: 45px;
+}
+main .content .tab2 form fieldset ul li #user_name::placeholder {
+    padding: 10px;
+}
+main .content .tab2 form fieldset ul li #user_num::placeholder {
+    padding: 10px;
 }
 main .content .tab2 form fieldset ul li #user_num {
     border: 1px solid #929292;
@@ -153,18 +171,21 @@ main .content .tab2 form fieldset button {background: rgb(0, 0, 0);
     font-size: 1.25rem;
     font-weight: 700;
     color: #fff;
-    margin: 47px 0;
+    margin: 10px 0 80px;
 }
-main .content .tab2  p > em {
+main .content .tab2 .join p {
     color: #DB4F00;
 }
-main .content .tab2 #join:hover {
+main .content .tab2 .join a > p:hover {
     background-color: #DB4F00;
 }
-main .content .tab2 #join {background: rgb(0, 0, 0);
-    width: 450px; height: 45px;
-    font-size: 1.25rem;
-    font-weight: 700;
+main .content .tab2 .join a > p {background: rgb(0, 0, 0);
     color: #fff;
-    margin-top:10px ;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 10px 0;
 }

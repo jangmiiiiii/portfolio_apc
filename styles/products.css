@@ -67,7 +67,7 @@ main #item_slide {
 main #item_slide .swiper-wrapper {
 }
 main #item_slide .swiper-wrapper .swiper-slide:hover {
-    box-shadow: 1px 3px 10px 1px #4e4e4e;
+    /* box-shadow: 1px 3px 10px 1px #4e4e4e; */
 }
 main #item_slide .swiper-wrapper .swiper-slide {
     /* 공통 슬라이드  */
