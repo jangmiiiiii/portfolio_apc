@@ -6,9 +6,11 @@ main {
 }
 main > h3 {
     padding: 50px 0 10px;
+    color: #222;
 }
 main h3 em {
     font-weight: 700;
+    font-size: 1.2rem;
 }
 main .product {
     width: 1130px;
@@ -82,7 +84,9 @@ main .product .p_right .size form fieldset {}
 main .product .p_right .size form fieldset ul {
     display: flex;
     flex-flow:row nowrap ;
+
 }
+main .product .p_right .size form fieldset ul li button {background: none;}
 main .product .p_right .size form fieldset ul li button:hover {
     color:rgb(255, 109, 24) ;
 }
@@ -110,10 +114,10 @@ main .product .p_right .total .count {
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: 1px solid #d6d2d2;
 }
 main .product .p_right .total .count > * {
     width: 45px; height: 45px;
-    border: 1px solid #d6d2d2;
     font-size: 1.25rem;
 }
 main .product .p_right .total .count #minus  {
@@ -122,6 +126,9 @@ main .product .p_right .total .count #countNum {
     /* position: relative; top: 10px; */
     text-align: center;
     padding-top: 8%;
+    border-right: 1px solid #d6d2d2;
+    border-left: 1px solid #d6d2d2;
+    font-weight: 400;
 }
 main .product .p_right .total .count #plus {}
 main .product .p_right .total p {
@@ -175,6 +182,8 @@ main #product_info .tab_title {
     justify-content: center;
     padding-bottom: 100px;
 }
+main #product_info .tab_title > *:hover {background:  #ebebeb;
+}
 main #product_info .tab_title a {
     width: 300px; height: 60px;
     border: 1px solid #000;
@@ -183,9 +192,13 @@ main #product_info .tab_title a {
     align-items: center;
     background: #fff;
 }
+main #product_info .tab_title a:last-child {
+    border-radius: 0 20px 0 0 ;
+}
 main #product_info .tab_title a:first-child {
     background: #000;
     color: #fff;
+    border-radius: 20px 0 0 ;
 }
 main #product_info .tab_title a h3 {
     font-weight: 700;
@@ -219,7 +232,11 @@ main #product_info .tab_contents .tab_c1 .detail h4 {
     
 }
 main #product_info .tab_contents .tab_c1 .detail p {
-    line-height: 30px;}
+    font-weight: 700;
+    /* text-align: center; */
+    line-height: 30px;
+    padding: 0 20px;
+}
 main #product_info .tab_contents .tab_c1 .d_img {
 }
 main #product_info .tab_contents .tab_c1 .d_img p {
@@ -240,7 +257,10 @@ main #product_info .tab_contents .tab_c1 .d_info h4 {
     margin-bottom: 30px;
 }
 main #product_info .tab_contents .tab_c1 .d_info p {
-    line-height: 30px;}
+    font-weight: 700;
+    /* text-align: center; */
+    line-height: 30px;
+    padding: 0 20px;}
 main #product_info .tab_contents .tab_c1 .size_guide {
     text-align: left;
     display: flex;
