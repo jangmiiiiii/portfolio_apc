@@ -1,6 +1,6 @@
 <header>
         <div class="logoNav">
-            <h1 class="logo1"><a href="#"><img src="./images/apc_logo1.png" alt=""></a></h1>
+            <h1 class="logo1"><a href="./index.html"><img src="./images/apc_logo1.png" alt=""></a></h1>
             <!-- 햄버거메뉴 아이콘 -->
             <a href="#" class="m_nav">
                 <span></span><span></span><span></span>
@@ -10,18 +10,18 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Women</a>
+                    <a href="./products.html">Women</a>
                     <ul class="sub">
-                        <li><a href="#">NEW Arrivals</a></li>
-                        <li><a href="#">전체상품</a></li>
-                        <li><a href="#">아우터</a></li>
-                        <li><a href="#">티셔츠</a></li>
-                        <li><a href="#">재킷/베스트</a></li>
-                        <li><a href="#">셔츠/블라우스</a></li>
-                        <li><a href="#">팬츠</a></li>
-                        <li><a href="#">스커트</a></li>
-                        <li><a href="#">원피스</a></li>
-                        <li><a href="#">패션잡화</a></li>
+                        <li><a href="./products.html">NEW Arrivals</a></li>
+                        <li><a href="./products.html">전체상품</a></li>
+                        <li><a href="./products.html">아우터</a></li>
+                        <li><a href="./products.html">티셔츠</a></li>
+                        <li><a href="./products.html">재킷/베스트</a></li>
+                        <li><a href="./products.html">셔츠/블라우스</a></li>
+                        <li><a href="./products.html">팬츠</a></li>
+                        <li><a href="./products.html">스커트</a></li>
+                        <li><a href="./products.html">원피스</a></li>
+                        <li><a href="./products.html">패션잡화</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Men</a>
@@ -73,11 +73,11 @@
                                 <a href="#" class="sub_menu"><span>OUTER</span><img src="./images/m_down.png" alt=""></a>
                                 <div class="list">
                                     <ul class="sub_list">
-                                        <li><a href="#">코트</a></li>
-                                        <li><a href="#">자켓</a></li>
-                                        <li><a href="#">가디건</a></li>
-                                        <li><a href="#">점퍼</a></li>
-                                        <li><a href="#">후드집업</a></li>
+                                        <li><a href="./products.html">코트</a></li>
+                                        <li><a href="./products.html">자켓</a></li>
+                                        <li><a href="./products.html">가디건</a></li>
+                                        <li><a href="./products.html">점퍼</a></li>
+                                        <li><a href="./products.html">후드집업</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -85,10 +85,10 @@
                                 <a href="#" class="sub_menu"><span>TOP</span><img src="./images/m_down.png" alt=""></a>
                                 <div class="list">
                                     <ul class="sub_list">
-                                        <li><a href="#">맨투맨</a></li>
-                                        <li><a href="#">티셔츠</a></li>
-                                        <li><a href="#">블라우스/셔츠</a></li>
-                                        <li><a href="#">후드티</a></li>
+                                        <li><a href="./products.html">맨투맨</a></li>
+                                        <li><a href="./products.html">티셔츠</a></li>
+                                        <li><a href="./products.html">블라우스/셔츠</a></li>
+                                        <li><a href="./products.html">후드티</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -96,9 +96,9 @@
                                 <a href="#" class="sub_menu"><span>BOTTOM</span><img src="./images/m_down.png" alt=""></a>
                                 <div class="list">
                                     <ul class="sub_list">
-                                        <li><a href="#">팬츠</a></li>
-                                        <li><a href="#">청바지</a></li>
-                                        <li><a href="#">점프수트</a></li>
+                                        <li><a href="./products.html">팬츠</a></li>
+                                        <li><a href="./products.html">청바지</a></li>
+                                        <li><a href="./products.html">점프수트</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -234,8 +234,8 @@
         </nav>
         <div class="lnb">
             <h2><a href="#"><img src="./images/search.png" alt=""></a></h2>
-            <h2><a href="#"><img src="./images/cart.png" alt=""></a></h2>
-            <h2><a href="#"><img src="./images/login.png" alt=""></a></h2>
+            <h2><a href="./login.html"><img src="./images/cart.png" alt=""></a></h2>
+            <h2><a href="./login.html"><img src="./images/login.png" alt=""></a></h2>
             <h2><a href="#"><img src="./images/language.png" alt=""></a></h2>
         </div>
     </header>
