@@ -28,7 +28,7 @@
             </h2>
         </div>
         <div class="content">
-            <div class="tab1">
+            <div class="tab1 ">
                 <form action="#" method="post">
                     <fieldset>
                         <div class="login">
@@ -93,8 +93,8 @@
     <script src="./script/script.js"></script>
     <script src="./script/common.js"></script>
     <script>
-        const userType = document.querySelectorAll('main .userType > *')
-        const tab = document.querySelectorAll('main .content > *')
+        const userType = document.querySelectorAll('main .userType > h2')
+        const tab = document.querySelectorAll('main .content > div')
         console.log(userType, tab)
 
         tab[1].style.display = 'none'; //1 .비회원 주문확인 초기 숨기기
@@ -108,5 +108,21 @@
             tab[1].style.display = 'none'
             tab[0].style.display = 'block'
         })
+        userType.forEach(function(t,i,a){
+            t.addEventListener('click',function(){
+                e.preventDefault()
+                for(let i of tab){i.style.display='none'}
+                tab[i].style.display = 'block'
+                for(let t of userType){t.classList.remove('active')}
+                t.classList.add('active')
+            })
+        })
+/*         tab[1].style.display = 'none'
+        for(let i of userType){
+            i.addEventListener('click',function(){
+                for(let j of userType){j.classList.remove('active')}
+                i.classList.add('active')
+            })
+        } */
     </script>
 </body>       
