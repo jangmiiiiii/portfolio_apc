@@ -252,8 +252,8 @@
         </nav>
         <div class="lnb">
             <h2><a href="#"><img src="./images/search.png" alt=""></a></h2>
-            <h2><a href="#"><img src="./images/cart.png" alt=""></a></h2>
-            <h2><a href="#"><img src="./images/login.png" alt=""></a></h2>
+            <h2><a href="./login.html"><img src="./images/cart.png" alt=""></a></h2>
+            <h2><a href="./login.html"><img src="./images/login.png" alt=""></a></h2>
             <h2><a href="#"><img src="./images/language.png" alt=""></a></h2>
         </div>
     </header>
@@ -292,14 +292,15 @@
                         </div>
                         <button type="submit">로그인</button>
                         <div class="loginFind">
-                            <p><a href="#">아이디찾기 |  </a></p>
-                            <p><a href="#"> 비밀번호찾기 |</a></p>
+                            <p><a href="#">아이디찾기 </a></p>
+                            <p><a href="#"> 비밀번호찾기 </a></p>
                             <p><a href="#"> 회원가입 </a></p>
                         </div> 
                     </fieldset>
                 </form>
                 <div class="naver_login">
-                    <p id="naver"><img src="./images/login_img/naver_logo.png" alt=""><em>네이버 로그인</em></p>
+                        <a href="#" class="naver_logo"><img src="./images/login_img/naver_logo.png" alt=""></a>
+                        <a href="#" class="naver_txt"><em>네이버 로그인</em></a>
                 </div> 
             </div>
             <div class="tab2">
@@ -308,16 +309,16 @@
                         <ul>
                             <li>
                                 <p>주문하신 분</p>
-                                <input type="text" name="user_name" id="user_name">
+                                <input type="text" name="user_name" id="user_name" placeholder="이름을 입력하세요">
                             </li>
                             <li>
                                 <p>주문번호</p>
-                                <input type="text" name="user_num" id="user_num"></li>
+                                <input type="text" name="user_num" id="user_num" placeholder="주문번호를 입력하세요"></li>
                         </ul>
                         <button type="submit">주문조회</button>
                     </fieldset>
                 </form>
-                <p>회원 가입 시 적립금과 쿠폰 혜택이 제공됩니다.</p>
+                <p><em>회원 가입 시 적립금과 쿠폰 혜택이 제공됩니다.</em></p>
                 <button type="button" id="join">회원가입</button>
             </div>
         </div>
@@ -370,4 +371,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="./script/script.js"></script>
     <script src="./script/common.js"></script>
+    <script>
+        const userType = document.querySelectorAll('main .userType > *')
+        const tab = document.querySelectorAll('main .content > *')
+        console.log(userType, tab)
+
+        tab[1].style.display = 'none'; //1 .비회원 주문확인 초기 숨기기
+        //2. 비회원 주문확인 탭제목 클릭시 내용 보이기 (회원로그인 숨기기)'
+        userType[1].addEventListener('click',function(){
+            tab[0].style.display = 'none'
+            tab[1].style.display = 'block'
+        })
+        //3. 회원 로그인 탭제목 클릭시 내용 보이기 (비회원 주문조회 숨기기)'
+        userType[0].addEventListener('click',function(){
+            tab[1].style.display = 'none'
+            tab[0].style.display = 'block'
+        })
+    </script>
 </body>       

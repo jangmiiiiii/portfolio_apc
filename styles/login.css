@@ -1,6 +1,5 @@
 /* 로그인 유저타입 */
-main { background: lightcoral; 
-    width: 500px;
+main {
     margin: 0 auto;
     padding:50px 0;
     display: flex;
@@ -19,18 +18,27 @@ main .userType {
     flex-flow: row nowrap;
     justify-content: center;
 }
-main .userType h2 {
-}
-main .userType h2 .active {    
-    border-bottom: 3px solid #000;
-}
 main .userType h2 a {
-    border-bottom: 3px solid #000;}
-main .content {}
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 250px;
+    /* padding:0 59px 30px 59px; */
+    margin-bottom: 70px;
+    text-align: center;
+    padding-bottom:30px ;
+    letter-spacing: -0.02rem;
+    border-bottom: 4px solid #aaa;
+    color:#aaa ;
+    display: inline-block;
+}
+
+main .userType h2 .active {
+    border-bottom: 4px solid #000;
+    color: #000;}
+main .content { height: 600px;
+}
 /* 회원로그인 */
-main .content .tab1 {background: lightblue;
-    padding: 70px 0 ;
-    
+main .content .tab1 {
 }
 main .content .tab1 form {}
 main .content .tab1 form fieldset {}
@@ -48,13 +56,17 @@ main .content .tab1 form fieldset .login .login_id span {
     font-weight: 700;
 }
 main .content .tab1 form fieldset .login .login_id #id {
-    border: 1px solid #929292;}
+    border: 1px solid #929292;
+    height: 45px;
+}
 main .content .tab1 form fieldset .login .login_pw span {
     padding-bottom: 5px;
     font-weight: 700;
 }
 main .content .tab1 form fieldset .login .login_pw #pw {
-    border: 1px solid #929292;}
+    border: 1px solid #929292;
+    height: 45px;
+}
 main .content .tab1 form fieldset .login .login_pw #pw a {}
 main .content .tab1 form fieldset .login .login_pw #pw a img {}
 main .content .tab1 form fieldset .loginFrm {}
@@ -66,26 +78,93 @@ main .content .tab1 form fieldset .loginFrm .loginAuto label #auto {
 main .content .tab1 form fieldset .loginFrm .loginAuto label span{
     font-size: 0.9rem;
 } 
-main .content .tab1 form fieldset .loginFrm button {
-    width: 450px;
+main .content .tab1 form fieldset button:hover {background: #222;}
+main .content .tab1 form fieldset button { background: rgb(0, 0, 0);
+    width: 450px; height: 45px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 30px 0;
 }
-main .content .tab1 form fieldset .loginFrm .button .loginFind {}
-main .content .tab1 form fieldset .loginFrm .button .loginFind p {}
-main .content .tab1 form fieldset .loginFrm .button .loginFind p a {}
-main .content .tab1 .naver_login {}
-main .content .tab1 .naver_login #naver {background: indigo;
-    width: 20px; height: 20px;}
-main .content .tab1 .naver_login #naver img {width: 100%;}
-main .content .tab1 .naver_login #naver em {}
+main .content .tab1 form fieldset .loginFind {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+}
+main .content .tab1 form fieldset  .loginFind p:last-child {border-right: none;}
+main .content .tab1 form fieldset  .loginFind p a:hover {
+    color: #929292;
+}
+main .content .tab1 form fieldset  .loginFind p {
+    border-right: 1px solid #222;
+    padding: 0 10px;
+}
+main .content .tab1 form fieldset  .loginFind p a {}
+main .content .tab1 .naver_login {
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+main .content .tab1 .naver_login > * {height: 40px;}
+main .content .tab1 .naver_login .naver_logo { background: #fff;
+    width: 40px;
+    border: 1px solid #929292;
+}
+main .content .tab1 .naver_login .naver_logo img {width: 100%;}
+main .content .tab1 .naver_login .naver_txt {
+    background: #fff;
+    width: 400px; 
+    padding: 10px 10px;
+    border: 1px solid #929292;
+
+}
+main .content .tab1 .naver_login .naver_txt em {
+}
 /* 비회원 로그인 */
 main .content .tab2 {}
 main .content .tab2 form {}
 main .content .tab2 form fieldset {}
-main .content .tab2 form fieldset ul {}
-main .content .tab2 form fieldset ul li {}
-main .content .tab2 form fieldset ul li p {}
-main .content .tab2 form fieldset ul li #user_name {}
-main .content .tab2 form fieldset ul li #user_num {}
-main .content .tab2 form fieldset button {}
-main .content .tab2 p {}
-main .content .tab2 #join {}
+main .content .tab2 form fieldset ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;}
+main .content .tab2 form fieldset ul li {
+    padding-bottom: 30px;
+}
+main .content .tab2 form fieldset ul li p {    
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+main .content .tab2 form fieldset ul li #user_name {
+    border: 1px solid #929292;
+    width: 450px; height: 45px;
+}
+main .content .tab2 form fieldset ul li #user_num {
+    border: 1px solid #929292;
+    width: 450px; height: 45px;
+}
+main .content .tab2 form fieldset button:hover{background: #222;
+}
+main .content .tab2 form fieldset button {background: rgb(0, 0, 0);
+    width: 450px; height: 45px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 47px 0;
+}
+main .content .tab2  p > em {
+    color: #DB4F00;
+}
+main .content .tab2 #join:hover {
+    background-color: #DB4F00;
+}
+main .content .tab2 #join {background: rgb(0, 0, 0);
+    width: 450px; height: 45px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top:10px ;
+}
