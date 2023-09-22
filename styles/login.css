@@ -83,7 +83,7 @@ main .content .tab1 form fieldset .loginFrm .loginAuto label #auto {
 main .content .tab1 form fieldset .loginFrm .loginAuto label span{
     font-size: 0.9rem;
 } 
-main .content .tab1 form fieldset button:hover {background: #222;}
+main .content .tab1 form fieldset button:hover {background: rgb(245, 66, 164);}
 main .content .tab1 form fieldset button { background: rgb(0, 0, 0);
     width: 450px; height: 45px;
     font-size: 1.25rem;
@@ -163,7 +163,7 @@ main .content .tab2 form fieldset ul li #user_num {
     border: 1px solid #929292;
     width: 450px; height: 45px;
 }
-main .content .tab2 form fieldset button:hover{background: #222;
+main .content .tab2 form fieldset button:hover{background: rgb(245, 66, 164);
 }
 main .content .tab2 form fieldset button {background: rgb(0, 0, 0);
     width: 450px; height: 45px;
@@ -173,10 +173,10 @@ main .content .tab2 form fieldset button {background: rgb(0, 0, 0);
     margin: 10px 0 80px;
 }
 main .content .tab2 .join p {
-    color: #DB4F00;
+    color: rgb(245, 66, 164);
 }
 main .content .tab2 .join a > p:hover {
-    background-color: #DB4F00;
+    background-color: #a0a0a0;
 }
 main .content .tab2 .join a > p {background: rgb(0, 0, 0);
     color: #fff;
